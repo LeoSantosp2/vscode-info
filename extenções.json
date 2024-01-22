@@ -1,81 +1,22 @@
 [
-  {
-    "Tabnine: AI Autocomplete & Chat for Javascript, Python": "Installed"
-  },
-
-  {
-    "Apc Customize UI++": "Installed"
-  },
-
-  {
-    "Auto Close Tag": "Installed"
-  },
-
-  {
-    "Auto Rename Tag": "Installed"
-  },
-
-  {
-    "Code Runner": "Installed"
-  },
-
-  {
-    "Color Highlight": "Installed"
-  },
-
-  {
-    "EditorConfig for VS Code": "Installed"
-  },
-
-  {
-    "ESLint": "Installed"
-  },
-
-  {
-    "Live Server": "Installed"
-  },
-
-  {
-    "Material Icon Theme": "Installed"
-  },
-
-  {
-    "Node.js Exec": "Installed"
-  },
-
-  {
-    "npm Intellisense": "Installed"
-  },
-
-  {
-    "Om Theme (A Darker Dracula Theme)": "Installed"
-  },
-
-  {
-    "Pylance": "Installed"
-  },
-
-  {
-    "Python": "Installed"
-  },
-
-  {
-    "Reload": "Installed"
-  },
-
-  {
-    "REST Client": "Installed"
-  },
-
-  {
-    "Symbols": "Installed"
-  },
-
-  {
-    "Tailwind CSS IntelliSense": "Installed"
-  },
-
-  {
-    "vscode-styled-components": "Installed"
-  }
+  "Tabnine: AI Autocomplete & Chat for Javascript, Python",
+  "Apc Customize UI++",
+  "Auto Close Tag",
+  "Auto Rename Tag",
+  "Code Runner",
+  "Color Highlight",
+  "EditorConfig for VS Code",
+  "ESLint",
+  "Live Server",
+  "Material Icon Theme",
+  "Node.js Exec",
+  "npm Intellisense",
+  "Om Theme (A Darker Dracula Theme)",
+  "Pylance",
+  "Python",
+  "Reload",
+  "REST Client",
+  "Symbols",
+  "Tailwind CSS IntelliSense",
+  "vscode-styled-components"
 ]
