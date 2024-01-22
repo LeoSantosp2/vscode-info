@@ -15,23 +15,23 @@
     "comments": {"fontStyle": "italic", "foreground": "#757575"},
     "textMateRules": [{
       "scope": ["constant", "emphasis"],
-      "settings": {"fontStyle": "italic"},
+      "settings": {"fontStyle": "italic"}
     }, {
       "scope": ["support.variable"],
-      "settings": {"foreground": "#F8F8F2"},
+      "settings": {"foreground": "#F8F8F2"}
     }, {
       "scope": ["variable.other.constant"],
-      "settings": {"fontStyle": "italic", "foreground": "#8BE9FD"},
+      "settings": {"fontStyle": "italic", "foreground": "#8BE9FD"}
       
     }, {
       "scope": ["entity.name.type.class", "entity.name.class", "entity.name.type", "entity.name.function", "support.type.object.module.js"],
-      "settings": {"fontStyle": "italic", "foreground": "#50FA7B"},
+      "settings": {"fontStyle": "italic", "foreground": "#50FA7B"}
     }, {
       "scope": ["storage"],
-      "settings": {"fontStyle": "italic"},
+      "settings": {"fontStyle": "italic"}
     }, {
       "scope": ["support.variable.property"],
-      "settings": {"foreground": "#BD93F9",}
+      "settings": {"foreground": "#BD93F9"}
     }],
   },
   "workbench.editor.enablePreview": false,
@@ -43,7 +43,7 @@
   "window.commandCenter": false,
   "workbench.layoutControl.enabled": false,
   "apc.stylesheet": {
-    ".title-label > h2": "display: none",
+    ".title-label > h2": "display: none"
   },
   "apc.listRow": {
     "height": 24
