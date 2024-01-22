@@ -1,4 +1,4 @@
 # Informações do meu VSCODE
 
-- Exteções.
+- Extenções.
 - Configurações.
