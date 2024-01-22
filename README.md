@@ -1,2 +1,4 @@
-# vscode-info
- 
+# Informações do meu VSCODE
+
+- Exteções.
+- Configurações.
