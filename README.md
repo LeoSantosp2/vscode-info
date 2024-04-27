@@ -4,7 +4,7 @@ This repository contains My VScode settings, including adjustiment font, theme a
 
 ## Pre Requirements
 
-- VScode installed [(Download Here)](https://code.visualstudio.com/)
+- VScode installed ([Download Here])(https://code.visualstudio.com/)
 
 ## VScode Settings
 
