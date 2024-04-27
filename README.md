@@ -1,14 +1,14 @@
-# My VScode Settings
+# My Visual Studio Code Settings
 
-This repository contains My VScode settings, including adjustiment font, theme and extensions.
+This repository contains My Visual Studio Code settings, including font adjustiment, themes and extensions.
 
 ## Pre Requirements
 
-- VScode installed ([Download Here])(https://code.visualstudio.com/)
+- Visual Studio Code installed [Download Here](https://code.visualstudio.com/)
 
 ## VScode Settings
 
-Copy and paste the settings bellow to the your file `settings.json` of VScode:
+Copy and paste the settings bellow into your `settings.json` file in VScode:
 
 ```json
 {
@@ -164,7 +164,7 @@ Copy and paste the settings bellow to the your file `settings.json` of VScode:
 }
 ```
 
-- OBS 1: The configurations `workbench.colorCustomizations` and `editor.tokenColorCustomizations` is optional.
+- OBS 1: The `workbench.colorCustomizations` and `editor.tokenColorCustomizations` configurations are optional.
 - OBS 2: The configuration `apc` only it works with the extension `Apc Customize UI++`.
 
 ##  Extensions
@@ -193,4 +193,4 @@ Copy and paste the settings bellow to the your file `settings.json` of VScode:
 
 ## Font Family
 
-- Cascadia Code [Download Click Here](https://github.com/microsoft/cascadia-code)
+- Cascadia Code [Download Here](https://github.com/microsoft/cascadia-code)
