@@ -10,7 +10,7 @@ This repository contains My VScode settings, including adjustiment font, theme a
 
 Copy and paste the settings bellow to the your file 'settings.json' of VScode:
 
-'''
+```
 {
   "workbench.colorTheme": "OM Theme (Default Dracula Italic)",
   "workbench.iconTheme": "symbols",
@@ -162,7 +162,7 @@ Copy and paste the settings bellow to the your file 'settings.json' of VScode:
   "window.menuBarVisibility": "compact",
   "editor.cursorStyle": "block",
 }
-'''
+```
 
 OBS 1: The options 'workbench.colorCustomizations' and 'editor.tokenColorCustomizations' is optional.
 OBS 2: The option 'apc' only it works with the extension 'Apc Customize UI++'.
