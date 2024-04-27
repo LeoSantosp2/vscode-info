@@ -6,7 +6,7 @@ This repository contains My Visual Studio Code settings, including font adjustim
 
 - Visual Studio Code installed [Download Here](https://code.visualstudio.com/)
 
-## VScode Settings
+## Visual Studio Code Settings
 
 Copy and paste the settings bellow into your `settings.json` file in VScode:
 
