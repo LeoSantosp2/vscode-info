@@ -164,8 +164,8 @@ Copy and paste the settings bellow to the your file 'settings.json' of VScode:
 }
 ```
 
-OBS 1: The options 'workbench.colorCustomizations' and 'editor.tokenColorCustomizations' is optional.
-OBS 2: The option 'apc' only it works with the extension 'Apc Customize UI++'.
+- OBS 1: The options 'workbench.colorCustomizations' and 'editor.tokenColorCustomizations' is optional.
+- OBS 2: The option 'apc' only it works with the extension 'Apc Customize UI++'.
 
 ##  Extensions
 
