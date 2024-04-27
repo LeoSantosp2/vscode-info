@@ -10,7 +10,11 @@ This repository contains My VScode settings, including adjustiment font, theme a
 
 Copy and paste the settings bellow to the your file 'settings.json' of VScode:
 
+<<<<<<< HEAD
 ```json
+=======
+```
+>>>>>>> 9ba6ce0a4a3a22a7316f5c8abbd15bae9933a276
 {
   "workbench.colorTheme": "OM Theme (Default Dracula Italic)",
   "workbench.iconTheme": "symbols",
