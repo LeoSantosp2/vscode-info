@@ -1,14 +1,11 @@
 # My Visual Studio Code Settings
-
 This repository contains My Visual Studio Code settings, including font adjustiment, themes and extensions.
 
 ## Pre Requirements
-
 - Visual Studio Code installed [Download Here](https://code.visualstudio.com/)
 
 ## Visual Studio Code Settings
-
-Copy and paste the settings bellow into your `settings.json` file in VScode:
+Copy and paste the settings below into `settings.json` file in your Visual Studio Code:
 
 ```json
 {
@@ -161,15 +158,17 @@ Copy and paste the settings bellow into your `settings.json` file in VScode:
   },
   "window.menuBarVisibility": "compact",
   "editor.cursorStyle": "block",
+  "editor.formatOnSave": true,
+  "[prisma]": {
+    "editor.defaultFormatter": "Prisma.prisma"
+  },
 }
 ```
-
 - OBS 1: The `workbench.colorCustomizations` and `editor.tokenColorCustomizations` configurations are optional.
 - OBS 2: The configuration `apc` only it works with the extension `Apc Customize UI++`.
 
 ##  Extensions
-
-- Tabnine: AI Autocomplete & Chat for Javascript, Python
+- Angular control flow snippets
 - Apc Customize UI++
 - Auto Close Tag
 - Auto Rename Tag
@@ -182,15 +181,16 @@ Copy and paste the settings bellow into your `settings.json` file in VScode:
 - Node.js Exec
 - npm Intellisense
 - Om Theme (A Darker Dracula Theme)
+- Prisma
 - Pylance
 - Python
 - Python Debugger
 - Reload
 - REST Client
 - Symbols
+- Tabnine: AI Autocomplete & Chat for Javascript, Python
 - Tailwind CSS IntelliSense
 - vscode-styled-components
 
 ## Font Family
-
 - Cascadia Code [Download Here](https://github.com/microsoft/cascadia-code)
