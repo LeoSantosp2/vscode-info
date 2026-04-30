@@ -9,7 +9,7 @@ Copy and paste the settings below into `settings.json` file in your Visual Studi
 
 ```json
 {
-  "workbench.colorTheme": "OM Theme (Default Dracula Italic)",
+  "workbench.colorTheme": "OM Theme (Night Owl Italic)",
   "workbench.iconTheme": "symbols",
   "tabnine.experimentalAutoImports": true,
   "editor.guides.bracketPairs": true,
@@ -22,27 +22,67 @@ Copy and paste the settings below into `settings.json` file in your Visual Studi
     "source.fixAll.eslint": "explicit"
   },
   "editor.tokenColorCustomizations": {
-    "comments": {"fontStyle": "italic", "foreground": "#757575"},
-    "textMateRules": [{
-      "scope": ["constant", "emphasis"],
-      "settings": {"fontStyle": "italic"},
-    }, {
-      "scope": ["support.variable"],
-      "settings": {"foreground": "#F8F8F2"},
-    }, {
-      "scope": ["variable.other.constant"],
-      "settings": {"fontStyle": "italic", "foreground": "#8BE9FD"},
-      
-    }, {
-      "scope": ["entity.name.type.class", "entity.name.class", "entity.name.type", "entity.name.function", "support.type.object.module.js"],
-      "settings": {"fontStyle": "italic", "foreground": "#50FA7B"},
-    }, {
-      "scope": ["storage"],
-      "settings": {"fontStyle": "italic"},
-    }, {
-      "scope": ["support.variable.property"],
-      "settings": {"foreground": "#BD93F9"}
-    }],
+    "comments": {
+      "fontStyle": "italic",
+      "foreground": "#757575"
+    },
+    "textMateRules": [
+      {
+        "scope": [
+          "constant",
+          "emphasis"
+        ],
+        "settings": {
+          "fontStyle": "italic"
+        },
+      },
+      {
+        "scope": [
+          "support.variable"
+        ],
+        "settings": {
+          "foreground": "#F8F8F2"
+        },
+      },
+      {
+        "scope": [
+          "variable.other.constant"
+        ],
+        "settings": {
+          "fontStyle": "italic",
+          "foreground": "#8BE9FD"
+        },
+      },
+      {
+        "scope": [
+          "entity.name.type.class",
+          "entity.name.class",
+          "entity.name.type",
+          "entity.name.function",
+          "support.type.object.module.js"
+        ],
+        "settings": {
+          "fontStyle": "italic",
+          "foreground": "#50FA7B"
+        },
+      },
+      {
+        "scope": [
+          "storage"
+        ],
+        "settings": {
+          "fontStyle": "italic"
+        },
+      },
+      {
+        "scope": [
+          "support.variable.property"
+        ],
+        "settings": {
+          "foreground": "#BD93F9"
+        }
+      }
+    ],
   },
   "workbench.editor.enablePreview": false,
   "explorer.compactFolders": false,
@@ -137,7 +177,7 @@ Copy and paste the settings below into `settings.json` file in your Visual Studi
     "input.foreground": "#f2f2f2",
     "input.placeholderForeground": "#f2f2f2",
     "inputOption.activeBackground": "#121212",
-    "inputOption.activeBorder": "#A6A6A6",        
+    "inputOption.activeBorder": "#A6A6A6",
     "panel.background": "#121212",
     "panel.border": "#404040",
     "panelTitle.inactiveForeground": "#A6A6A6",
@@ -157,10 +197,22 @@ Copy and paste the settings below into `settings.json` file in your Visual Studi
     "statusBar.noFolderBackground": "#121212"
   },
   "window.menuBarVisibility": "compact",
-  "editor.cursorStyle": "block",
+  "editor.cursorStyle": "line",
   "editor.formatOnSave": true,
   "[prisma]": {
     "editor.defaultFormatter": "Prisma.prisma"
+  },
+  "git.ignoreMissingGitWarning": true,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "workbench.secondarySideBar.defaultVisibility": "hidden",
+  "chat.viewSessions.enabled": false,
+  "chat.viewTitle.enabled": false,
+  "chat.viewWelcome.enabled": false,
+  "github.copilot.enable": {
+    "*": false,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false
   },
 }
 ```
@@ -173,6 +225,7 @@ Copy and paste the settings below into `settings.json` file in your Visual Studi
 - Auto Close Tag
 - Auto Rename Tag
 - Code Runner
+- Codex - OpenAI's coding agent
 - Color Highlight
 - EditorConfig for VS Code
 - ESLint
@@ -187,10 +240,9 @@ Copy and paste the settings below into `settings.json` file in your Visual Studi
 - Python Debugger
 - Reload
 - REST Client
+- SCSS IntelliScense
 - Symbols
-- Tabnine: AI Autocomplete & Chat for Javascript, Python
 - Tailwind CSS IntelliSense
-- vscode-styled-components
 
 ## Font Family
 - Cascadia Code [Download Here](https://github.com/microsoft/cascadia-code)
